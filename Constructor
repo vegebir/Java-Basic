@@ -1,0 +1,12 @@
+/* This is a sample code of java constructor. */
+public class Employee {
+  private String firstName = null;
+  private String lastName  = null;
+  private int    birthYear = 0;
+  
+  public Employee(String firstName, String lastName, int birthYear){
+  this.firstName = firstName;
+  this.lastName  = lastName;
+  this.birthYear = birthYear;
+  }
+}
