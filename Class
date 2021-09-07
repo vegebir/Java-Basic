@@ -1,0 +1,30 @@
+/* This is a sample of java class. */
+
+// Class Declaration
+public class Dog{
+  // Instance Variables
+  String name;
+  String breed;
+  int age;
+  String color;
+  
+  // Constructor Declaration of Class
+  public Dog(String name, String breed, int age, String color)
+  {
+    this.name = name;
+    this.breed = breed;
+    this.age = age;
+    this.color = color;
+  }
+  
+  // Method 1
+  public String getName()
+  {
+    return name;
+   }
+   // Method 2
+   public String getBreed()
+   {
+    return breed;
+   }
+}
